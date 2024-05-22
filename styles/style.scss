@@ -248,18 +248,16 @@ img {
 
 
 // location
-.map iframe {
+.location .map iframe {
   width: 100%;
   height: 300px;
   margin-bottom: 13px;
   filter: grayscale(1);
+ 
 }
-
-.location-content address,
-.time,
-.tel {
+.location p {
   margin-bottom: 13px;
-  text-align-last: left;
+  text-align: left;
 }
 
 .footer {
